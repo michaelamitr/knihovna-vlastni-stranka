@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 30px;
+  background-color: rosybrown;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(243, 232, 200);
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80vmin;
+  padding: 10px;
+  margin: 40px auto;
+  min-height: 90vmin;
+}
+
+.description {}
+
+.imgfield {}
+
+.image {
+  width: 50vmin;
+  border-radius: 50%;
+}
+
+.answerfield {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: inherit;
+  gap: 20px;
+  justify-content: center;
+}
+
+.generatedanswer {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(184, 0, 0);
+}
